@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #444;
+	box-sizing: content-box;
+	height: auto;
+}
+article {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: grey;
+	box-sizing: content-box;
+	height: auto;
+}
+article section {
+	width: 90%;
+	float: left;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	padding: 0;
+	color: black;
+	background-color: white;
+	box-sizing: content-box;
+	height: auto;
+}
+form {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+span {
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+	color: white;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	height: 50px;
+	margin-right: 5%;
+}
+.input {
+	width: 99%;
+	padding: 15px 5px 15px 5px;
+	border: 1px solid lightgrey;
+}
+.input:hover {
+		box-shadow: 5px 5px 10px 10px lightskyblue;
+}
+select {
+	width: 100%;
+	padding: 15px 10px 15px 10px;
+	border: 1px solid lightgrey;
+}
+select:hover {
+		box-shadow: 5px 5px 10px 10px lightskyblue;
+}
+.button {
+	width: 200px;
+	padding: 15px 10px 15px 10px;
+	border: 0;
+	background-color: #4c8ac8;
+	color: white;
+	cursor: pointer;
+}
+.button:hover {
+	box-shadow: 5px 5px 10px 10px lightskyblue;
+}
+.button2 {
+	width: 200px;
+	padding: 15px 10px 15px 10px;
+	border: 0;
+	background-color: #c8644c;
+	color: white;
+	cursor: pointer;
+}
+.button2:hover {
+	box-shadow: 5px 5px 10px 10px lightskyblue;
+}
+.popup {
+	position: fixed;
+	bottom: 1px;
+	right: 1px;
+	width: 200px;
+	height: auto;
+	background-color: darkred;
+	color: white;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.button_popup {
+	width: 200px;
+	padding: 15px 10px 15px 10px;
+	border: 0;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+.button_popup:hover {
+	background-color: lightskyblue;
+	color: darkblue; 
+}
+.button_popup2 {
+	width: 200px;
+	padding: 15px 10px 15px 10px;
+	border: 0;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	display: none;
+}
+.button_popup2:hover {
+	background-color: lightskyblue;
+	color: darkblue; 
+}
+.button_finish {
+	width: 200px;
+	padding: 15px 10px 15px 10px;
+	border: 0;
+	background-color: yellow;
+	color: blue;
+	cursor: pointer;
+}
+.button_finish:hover {
+	background-color: orange;
+	color: darkblue; 
+}
+.nomor_soal {
+	position: fixed;
+	display: none;
+	max-width: 150px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #5b0404;
+	color: white;
+	-webkit-transition:all 5s ease;
+	-moz-transition:all 5s ease;
+	-ms-transition:all 5s ease;
+	-o-transition:all 5s ease;
+	top: 1px;
+	right: 1px;
+}
+.nomor_soal ul {
+	margin: 0;
+	padding: 0;
+}
+.nomor_soal ul li {
+	list-style: none;
+	float: left;
+	padding: 5px;
+}
+.nomor_soal ul li a {
+	text-decoration: none;
+	color: red;
+	display: block;
+	font-size: 3em;
+	padding: 5px;
+	background-color: pink;
+	border: 1px solid black;
+}
+.nomor_soal ul li a:hover {
+	color: white;
+	background-color: blue;
+}
+h3 {
+	color: red;
+}
+textarea {
+	padding: 10px 5px 10px 5px;
+	width: 95%;
+}
+textarea:hover {
+	box-shadow: 5px 5px 10px 10px lightskyblue;
+}
+footer {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #222;
+	box-sizing: content-box;
+	height: auto;
+}
